@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body{
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    max-width: 800px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 250px;
+
+}
+.header{
+    width: 60%;
+}
+.header h1{
+    font-size: 2.6rem;;
+    color: hsl(300, 43%, 22%);
+}
+.header p{
+    font-size: 1.05rem;
+    color:hsl(303, 10%, 53%);
+}
+
+.rates {
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+.rate:nth-child(1) {
+    margin-right: 15%;
+}
+  
+.rate:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .rate:nth-child(3) {
+    margin-left: 5%;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.customers{
+    width: 100%;
+    display: flex;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+    color:white;
+    border-radius:15px;
+}
+.customer:nth-child(1){
+
+    margin-bottom: 10%;
+}
+.customer:nth-child(2){
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.customer:nth-child(3){
+    margin-top: 10%;
+    
+}
+.profile{
+    
+    display: inline-flex;
+}
+.profile .status{
+    margin-left: 4px;
+}
+.profile .status h4{
+    color:white;
+    font-size: 15px;
+    margin:0px;
+}
+.profile .status p{
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    margin-top:2px;
+}
+.profile img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.wrapper{
+    margin: 5%;
+}
